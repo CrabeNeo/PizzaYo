@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Pizza Yohan</title>
+		<meta name="Description" content="Ma Page De Commande">
+		<meta name="Keywords" content="Bécogné Néo">
+		<link rel="stylesheet" href="./formulaire.css"/>
+		<link rel='stylesheet' href='./bootstrap-4.6.2-dist/css/bootstrap.css'>
+	</head>
+    <body>
+		<div class="container">
+		<form action="Merci.html" method="get">
+                <div class="row">
+					<div class="col-12">
+                        <h1>Choisit ta pizza</h1>
+                    </div>
+					<div class="col-6">
+                        <h1>Nom :</h1>
+                        <input type="text" name="Nom" id="Nom"class="form-control">
+						<?php
+							if($nom == "" || !isset($nom)){
+                            	echo'<input type="text" name="Nom" id="Nom"class="form-control" placeholder="Entrez votre nom s'il vous plait">';
+							}
+						>
+                    </div>
+                    <div class="col-6">
+                        <h1>Prénom :</h1>
+                        <input type="text" name="Prenom" id="Prenom" class="form-control">
+                    </div>
+					<div class ="col-12">
+						<h1>Choisit ta base : </h1>
+							<input type="checkbox" id="creme" name="creme" />
+							<label for="creme">creme</label>
+							<input type="checkbox" id="tomate" name="tomate" />
+							<label for="tomate">tomate</label>
+					</div>
+					<div class="col-12">
+						<h1>Choisit ton fromage :</h1>
+						<input type="checkbox" id="emmental" name="emmental" />
+						<label for="emmental">emmental</label>
+						<input type="checkbox" id="cheddar" name="cheddar" />
+						<label for="cheddar">cheddar</label>
+						<input type="checkbox" id="chevre" name="chevre" />
+						<label for="chevre">chevre</label>
+					</div>
+					<div class="col-12">
+						<h1>Choisit ta viande :</h1>
+						<select name="Diplome" id="Diplome" class="form-control">
+                            <option value="default">Sélectionner votre viande</option>
+                            <option value="jambon">jambon blanc</option>
+                            <option value="bayonne">jambon de bayonne</option>
+                            <option value="poulet">poulet</option>
+                            <option value="boeuf">viande hachée</option>
+                        </select>
+					</div>
+					<div class="col-12">
+						<h1>Choisit ta deuxième viande :</h1>
+						<select name="Diplome" id="Diplome" class="form-control">
+                            <option value="default">Aucune</option>
+                            <option value="jambon">jambon blanc</option>
+                            <option value="bayonne">jambon de bayonne</option>
+                            <option value="poulet">poulet</option>
+                            <option value="boeuf">viande hachée</option>
+                        </select>
+					</div>
+					<div class="col-12">
+                    <input type="submit" value="Envoyer votre pizza"class="btn btn-light btn-block">
+                </div>
+	</body>
+</html>

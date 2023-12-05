@@ -1,0 +1,70 @@
+# Compiled class file
+*.class
+.classpath
+
+#idea files
+.metadata
+.idea
+.settings
+.project
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+
+#folders
+gitServieres/
+bootstrap-4.5.2-dist/
+bootstrap-4.6.2-dist/
+/bootstrap-4.6.2-dist
+bootstrap/
+fontawesome-free-6.0.0-beta2-web/
+jquery/
+fa/
+gsap-public/
+webYASMF/
+
+data/
+.runtime/
+/qualiDev/tp2/tp2NB/nbproject/private/
+__pycache__/
+/qualiDev/TD2/nbproject/private/
+/qualiDev/tp2/tp2NB/build/
+/qualiDev/tp3/tp3NB/build/
+/qualiDev/tp3/tp3NB/nbproject/private/
+/qualiDev/tp4/tp4/nbproject/private/
+/qualiDev/tp4/tp4/build/
+/qualiDev/tp5/tp5/nbproject/private/
+/qualiDev/tp5/tp5/dist/
+/qualiDev/tp5/tp5/build/
+/qualiDev/tp6/tp6/nbproject/private/
+/qualiDev/tp7/JavaFXApplication4/nbproject/private/
+/qualiDev/tp7/tp7/nbproject/private/
+/qualiDev/tp7/tp7/build/
+/qualiDev/tp7/tp7/dist/
+/qualiDev/tp8/ptp8/nbproject/private/
+/qualiDev/tp8/tp8/nbproject/private/
+/qualiDev/tp8/tp8/build/
+/qualiDev/tp8-2/tp8-2/nbproject/private/
+/qualiDev/tp8-2/tp8-2/build/
+/qualiDev/tp10/tp10/nbproject/private/
+/qualiDev/tp11/tp11/nbproject/private/
